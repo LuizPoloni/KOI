@@ -30,8 +30,10 @@ body {
 
 /* LOGO */
 #profile {
-    margin-top: 20px; /* sobe o bloco todo */
+    margin-top: 20px;
+    /* sobe o bloco todo */
 }
+
 #profile img {
     width: 120px;
     margin-bottom: 50px;
@@ -56,7 +58,8 @@ ul {
 }
 
 ul li {
-    margin: 20px 0; /* espaçamento maior entre botões */
+    margin: 20px 0;
+    /* espaçamento maior entre botões */
 }
 
 ul li a {
@@ -79,7 +82,8 @@ ul li a:hover {
 /* FOOTER CENTRALIZADO E FIXO */
 .footer {
     position: center;
-    bottom: 20px; /* distância do final da tela */
+    bottom: 20px;
+    /* distância do final da tela */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -100,10 +104,12 @@ ul li a:hover {
 
 /* EFEITO PULSAR */
 @keyframes pulse {
+
     0%,
     100% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
@@ -111,10 +117,12 @@ ul li a:hover {
 
 /* EFEITO DE BRILHO NO LOGO */
 @keyframes pulseGlow {
+
     0%,
     100% {
         filter: drop-shadow(0 0 5px #fff);
     }
+
     50% {
         filter: drop-shadow(0 0 20px #dbdb22);
     }
